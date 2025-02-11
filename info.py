@@ -13,8 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Weoo_Filter_Bot')
 API_ID = int(environ.get('API_ID', '26762055'))
 API_HASH = environ.get('API_HASH', '9027500f3efea9774eb5bd445f57cb78')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7526967917:AAHOgMDwdGc_Trm5237h86fws7uYqShvoc8")
-
+BOT_TOKEN = environ.get('BOT_TOKEN', "7526967917:AAGUcnYoGlL8Zqz4v_s5WleajlE9LcDEOy0")
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 PICS = (environ.get('PICS', 'https://envs.sh/lE.jpg')).split()
